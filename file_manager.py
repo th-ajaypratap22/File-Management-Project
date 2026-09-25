@@ -70,6 +70,8 @@ def updatefile():
                     fs.write(data)
             else:
                 print("INVALID RESPONSE")
+        else:
+            print("File Does Not Exist. Enter Correct File Name.")
     except Exception as err:
         print(f"An Error Occured As {err}")
 
